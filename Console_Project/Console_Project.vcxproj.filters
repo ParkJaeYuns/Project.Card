@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\캐릭터/몬스터">
+      <UniqueIdentifier>{2773fb15-c90e-491f-b897-95bb35e26281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\카드덱">
+      <UniqueIdentifier>{1d8fe99d-a8b8-47b1-8fdc-11f689fe405e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\무 분류">
+      <UniqueIdentifier>{07e2b1a2-a5e2-4584-a382-d49b1d6e850e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\전투">
+      <UniqueIdentifier>{18cf450c-9e7f-4c5c-b64f-1a3366791952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\상점/인벤토리">
+      <UniqueIdentifier>{19375541-d9d9-4a46-a04a-db98c3279fbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPlayer.h">
+      <Filter>소스 파일\캐릭터/몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="CCard.h">
+      <Filter>소스 파일\카드덱</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>소스 파일\전투</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>소스 파일\캐릭터/몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardDB.h">
+      <Filter>소스 파일\카드덱</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>소스 파일\상점/인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="CStore.h">
+      <Filter>소스 파일\상점/인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>소스 파일\상점/인벤토리</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>소스 파일\캐릭터/몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\캐릭터/몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="CCard.cpp">
+      <Filter>소스 파일\카드덱</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\무 분류</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>소스 파일\전투</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardDB.cpp">
+      <Filter>소스 파일\카드덱</Filter>
+    </ClCompile>
+    <ClCompile Include="CStore.cpp">
+      <Filter>소스 파일\상점/인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>소스 파일\상점/인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>소스 파일\상점/인벤토리</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
